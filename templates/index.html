@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+        <br>
+
+
+            <br>
+            <h3>{{sayari}}</h3>
+            <h3>{{outhre}}</h3>
+            <br>
+
+
+
+
+         <a class="btn btn-primary" href="{{url_for('index')}}" role="button" >Generate</a>
+         <a class="btn btn-primary" href="{{url_for('tra')}}" role="button">Toggle language</a>
+         <a class="btn btn-primary" href="{{url_for('down')}}" role="button">download</a>
+
+
+
+
+
+{% endblock %}
